@@ -1,0 +1,13 @@
+<h2 id="addnote">
+    Add New Notes
+</h2>
+
+<form>
+    <input type="text" placeholder="ID" [(ngModel)]="note.id">
+    <input type="text" placeholder="Title" name="name"  [(ngModel)]="note.title">
+    <input type="text" placeholder="Content" name="content"  [(ngModel)]="note.content">
+ 
+    <button (click)="saveNote()">Save</button>
+
+</form>
+

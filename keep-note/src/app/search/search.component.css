@@ -1,0 +1,31 @@
+input[type=search]{
+    width: 350px;
+    padding: 10px 20px 8px 45px;
+    border: #fff solid 2px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-color:rgb(40, 41, 41);
+    transition: 0.5s all ease-in-out;
+    filter: brightness(170%);
+    margin-bottom: 10px;
+    padding-bottom: 9px;
+    color: white;
+}
+input[type=search] :focus,
+input[type=search] :not(:placeholder-shown){
+    width: 350px;
+    background-color: #fff;
+}
+.b1{
+    background-color: rgb(247, 247, 252);
+    border-radius:17px;
+    background-color: rgb(190, 205, 240);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-color:rgb(242, 146, 20);
+}

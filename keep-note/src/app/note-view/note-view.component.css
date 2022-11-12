@@ -1,0 +1,11 @@
+#note{
+    border: 1px solid rgb(231, 15, 15);
+    width: 200px;
+    height: 200px; 
+    position:absolute;
+    top: 120px;
+    right:50px;   
+    text-align: center;
+    box-shadow: 1px 4px 4px rgb(102, 188, 216);
+   
+}

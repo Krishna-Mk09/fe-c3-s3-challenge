@@ -1,0 +1,8 @@
+<app-search (searchTextChanged)="search($event)"></app-search>
+
+<div id="note">
+    <app-add-note></app-add-note>
+</div>
+
+<app-note class="card" *ngFor="let contact of notes" [contact] = "contact" ></app-note>
+
